@@ -30,7 +30,9 @@
  
  ## 开始之前
  （测试版本为macOS Catalina 10.15.5）
+ 
  1.保证你能科学上网。
+ 
  2.更新brew:
  ```bash
 brew update
