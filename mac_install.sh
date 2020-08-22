@@ -39,11 +39,14 @@ brew install shfmt
 
 brew install lazygit
 
+echo "########For C/C++:"
+brew install llvm
+brew install ccls
+
+
 echo "########Nvim PlugInstall:"
 nvim -c PlugInstall -c q -c q
 
 
 wget -P ~/Library/Fonts/ https://github.com/devilyouwei/NVimmer/raw/master/fonts/linux/MonacoNerd.ttf
 
-brew install llvm
-brew install ccls
