@@ -10,13 +10,12 @@ wget -P ~/.config/nvim/ https://raw.githubusercontent.com/devilyouwei/NVimmer/ma
 
 wget -P ~/.config/nvim/autoload/  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-
+echo "installl neovim:"
 brew install neovim
 
+echo "########For JavaScript:"
 brew install node
-
 brew install npm
-
 npm install -g neovim
 echo "########For Ruby:"
 sudo gem install neovim
