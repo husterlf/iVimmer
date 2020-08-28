@@ -1,4 +1,4 @@
-# NVim
+# iNVimmer
 You know,for efficiency......
 
 To build a better editor on your Mac!
