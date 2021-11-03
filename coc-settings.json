@@ -1,0 +1,68 @@
+{
+    "tabnine.priority": 0,
+    //emmet
+    "emmet.priority": 1,
+    "emmet.excludeLanguages": ["vue", "typescript", "javascript"],
+
+    //prettier(default config)
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 120,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.bracketSpacing": true,
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.singleQuote": true,
+    "prettier.useTabs": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.proseWrap": "always",
+
+    //vue
+    "vetur.format.enable": true,
+    "vetur.validation.style": true,
+    "vetur.validation.script": true,
+    "vetur.validation.template": true,
+    "vetur.completion.autoImport": true,
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "sortAttributes": true,
+            "singleQuote": false,
+            "printWidth": 120
+        }
+    },
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+
+    //json
+    "json.format.enable": false,
+
+    //html
+    "html.enable": true,
+    "html.format.enable": true,
+    "html.validate.html": true,
+    "html.validate.styles": true,
+    "html.validate.scripts": true,
+    "html.format.wrapLineLength": 100,
+    "html.format.endWithNewline": false,
+    "html.format.wrapAttributes": "auto",
+
+    //eslint,js
+    "eslint.alwaysShowStatus": true,
+    "prettier.eslintIntegration": true,
+    "eslint.format.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.run": "onSave",
+
+    //java
+    "java.errors.incompleteClasspath.severity": "ignore",
+
+    //tsserver
+    "tsserver.enableJavascript": false
+}
